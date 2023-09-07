@@ -1,0 +1,33 @@
+.friends-header{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items:flex-end;
+  width: 983px;
+  margin-bottom: 10px;
+  border-bottom: 1px solid #99aabb2f;
+  font-family: 'GraphikLight';
+  font-weight: normal;
+  color: #99AABB;
+}
+
+.friends-text{
+  font-size: 14px;
+}
+
+.activity-bolt-container{
+  display: flex;
+  flex-direction: row;
+  align-items:flex-end;
+  color: #99aabb2f;
+  fill: #99AABB;
+  font-size: 12px;
+}
+
+.all-activity{
+  color: #99aabb86;
+}
+
+.activity-bolt-container svg{
+  height: 15px;
+}

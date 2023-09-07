@@ -1,0 +1,17 @@
+.movie-container{
+    margin-left: 8px;
+    margin-bottom: 10px;
+}
+
+.poster-container{
+    border:  1px solid rgba(255, 255, 255, 0.274);
+    border-width: thin;
+    border-radius: 4px;
+    height: 210px;
+
+}
+
+.movie-poster{
+    height:210px;
+    width: 155px;
+}

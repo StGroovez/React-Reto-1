@@ -1,0 +1,122 @@
+li {
+    list-style-type: none;
+    margin-left: 23px;
+  }
+
+.full-container{
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    width: 1000px;
+    height: 70px;
+    background-color: #14191d;
+    font-size: 13.5px;
+    font-weight: 1000;
+    color: #99AABB;
+}
+.logo-container{
+    height: 56px;
+
+}
+
+.logo{
+    height: 100%;
+    margin-left: -11px;
+    object-fit: cover;
+}
+
+.nav-bar-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #14191d;
+    margin-right: 12px;
+}
+
+.user-profile{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.user-img-container{
+    width: 24px;
+    height: 24px;
+    border-radius:30px;
+}
+
+.user-img{
+    height:100%;
+    object-fit: cover;
+    border-radius:30px;
+}
+
+.user-name{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6px;
+    align-items: center;
+}
+
+.expand-container{
+    margin-top: 5px;
+}
+
+.expand-container svg{
+    width: 20px;
+    height: 20px;
+    fill:#99AABB;
+}
+
+.svg-container{
+    margin-left: 15px;
+}
+
+.svg-container svg{
+    width: 24px;
+    height: 24px;
+    fill:#99AABB;
+}
+
+.bolt-container svg{
+    width: 20px;
+    height: 20px;
+    fill:#99AABB;
+}
+
+.bolt-container{
+    margin-left: 15px;
+}
+
+.buttons-container{
+    display: flex;
+    margin-left: 20px;
+    margin-bottom: 5px;
+}
+
+button svg{
+    fill: white;
+    height: 20px;
+}
+
+span{
+    font-size: 16px;
+}
+
+button{
+    background-color: #01b120;
+    color: white;
+    border-radius: 1px;
+    border: none;
+    height: 25px;
+    font-weight: 790;
+}
+
+.button-expand{
+    width: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+

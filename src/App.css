@@ -1,38 +1,51 @@
-.App {
-  text-align: center;
+@font-face {
+  font-family: 'GraphikSemibold';
+  src: url(Graphik-Font-Family/GraphikSemibold.otf) format('opentype');
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+@font-face {
+  font-family: 'GraphikLight';
+  src: url(Graphik-Font-Family/GraphikLight.otf) format('opentype');
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100%;
+  margin:0 auto;
+  height: 110vh;
+  background: rgb(6,7,9);
+  background: linear-gradient(360deg, rgba(6,7,9,1) 0%, rgba(32,39,46,0.9528186274509804) 65%);
+  font-family: 'GraphikSemibold'
+}
+
+.navbar-container{
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+  width: 100%;
+  background-color: #14191d;
+  
+}
+
+.welcome-message{
+  display: flex;
+  flex-direction: row;
+  margin-top: 65px;
+  font-family: 'GraphikLight';
+  font-weight: normal;
+  font-size: 25px;
+  color: #99AABB;
+}
+
+.user-name-message{
   color: white;
+  font-size: 25px;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.banner{
+  width: 987px;
+  margin-right: 8px;
+  margin-top: 70px;
+  margin-bottom: 30px;
 }
